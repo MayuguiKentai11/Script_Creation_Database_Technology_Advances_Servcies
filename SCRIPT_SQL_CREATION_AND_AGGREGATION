@@ -1,10 +1,11 @@
-/****** Object:  Database [ServiciosTecnicos]    Script Date: 28/10/2023 17:26:22 ******/
+/****** Object:  Database [ServiciosTecnicos]    Script Date: 28/10/2023 18:06:08 ******/
 CREATE DATABASE [ServiciosTecnicos]
 GO
 
 USE [ServiciosTecnicos]
 GO
-/****** Object:  Table [dbo].[Administradores]    Script Date: 28/10/2023 17:26:23 ******/
+
+/****** Object:  Table [dbo].[Administradores]    Script Date: 28/10/2023 18:06:08 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -18,7 +19,7 @@ CREATE TABLE [dbo].[Administradores](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[AntecedentesTecnicos]    Script Date: 28/10/2023 17:26:23 ******/
+/****** Object:  Table [dbo].[AntecedentesTecnicos]    Script Date: 28/10/2023 18:06:08 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -34,7 +35,7 @@ CREATE TABLE [dbo].[AntecedentesTecnicos](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[CodigosConsumidores]    Script Date: 28/10/2023 17:26:23 ******/
+/****** Object:  Table [dbo].[CodigosConsumidores]    Script Date: 28/10/2023 18:06:08 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -48,7 +49,7 @@ CREATE TABLE [dbo].[CodigosConsumidores](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[CodigosTecnicos]    Script Date: 28/10/2023 17:26:23 ******/
+/****** Object:  Table [dbo].[CodigosTecnicos]    Script Date: 28/10/2023 18:06:08 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -62,7 +63,7 @@ CREATE TABLE [dbo].[CodigosTecnicos](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Consumidores]    Script Date: 28/10/2023 17:26:23 ******/
+/****** Object:  Table [dbo].[Consumidores]    Script Date: 28/10/2023 18:06:08 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -83,7 +84,7 @@ CREATE TABLE [dbo].[Consumidores](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[ContratosTecnicos]    Script Date: 28/10/2023 17:26:23 ******/
+/****** Object:  Table [dbo].[ContratosTecnicos]    Script Date: 28/10/2023 18:06:08 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -101,7 +102,7 @@ CREATE TABLE [dbo].[ContratosTecnicos](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[DatosAgendas]    Script Date: 28/10/2023 17:26:23 ******/
+/****** Object:  Table [dbo].[DatosAgendas]    Script Date: 28/10/2023 18:06:08 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -116,7 +117,7 @@ CREATE TABLE [dbo].[DatosAgendas](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[DenunciasConsumidores]    Script Date: 28/10/2023 17:26:23 ******/
+/****** Object:  Table [dbo].[DenunciasConsumidores]    Script Date: 28/10/2023 18:06:08 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -134,7 +135,7 @@ CREATE TABLE [dbo].[DenunciasConsumidores](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[DenunciasTecnicos]    Script Date: 28/10/2023 17:26:23 ******/
+/****** Object:  Table [dbo].[DenunciasTecnicos]    Script Date: 28/10/2023 18:06:08 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -152,7 +153,7 @@ CREATE TABLE [dbo].[DenunciasTecnicos](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Departamentos]    Script Date: 28/10/2023 17:26:23 ******/
+/****** Object:  Table [dbo].[Departamentos]    Script Date: 28/10/2023 18:06:08 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -166,7 +167,7 @@ CREATE TABLE [dbo].[Departamentos](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[DetallesAgendas]    Script Date: 28/10/2023 17:26:23 ******/
+/****** Object:  Table [dbo].[DetallesAgendas]    Script Date: 28/10/2023 18:06:08 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -189,7 +190,7 @@ CREATE TABLE [dbo].[DetallesAgendas](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Distritos]    Script Date: 28/10/2023 17:26:23 ******/
+/****** Object:  Table [dbo].[Distritos]    Script Date: 28/10/2023 18:06:08 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -204,7 +205,7 @@ CREATE TABLE [dbo].[Distritos](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Especialidades]    Script Date: 28/10/2023 17:26:23 ******/
+/****** Object:  Table [dbo].[Especialidades]    Script Date: 28/10/2023 18:06:08 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -218,7 +219,7 @@ CREATE TABLE [dbo].[Especialidades](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Membresias]    Script Date: 28/10/2023 17:26:23 ******/
+/****** Object:  Table [dbo].[Membresias]    Script Date: 28/10/2023 18:06:08 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -235,7 +236,7 @@ CREATE TABLE [dbo].[Membresias](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Mensajes]    Script Date: 28/10/2023 17:26:23 ******/
+/****** Object:  Table [dbo].[Mensajes]    Script Date: 28/10/2023 18:06:08 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -254,7 +255,7 @@ CREATE TABLE [dbo].[Mensajes](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[MiembrosSalas]    Script Date: 28/10/2023 17:26:23 ******/
+/****** Object:  Table [dbo].[MiembrosSalas]    Script Date: 28/10/2023 18:06:08 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -265,7 +266,7 @@ CREATE TABLE [dbo].[MiembrosSalas](
 	[Id_Consumidor_MiembroSala] [int] NULL
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[ReseniasTecnicos]    Script Date: 28/10/2023 17:26:23 ******/
+/****** Object:  Table [dbo].[ReseniasTecnicos]    Script Date: 28/10/2023 18:06:08 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -283,7 +284,7 @@ CREATE TABLE [dbo].[ReseniasTecnicos](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Salas]    Script Date: 28/10/2023 17:26:23 ******/
+/****** Object:  Table [dbo].[Salas]    Script Date: 28/10/2023 18:06:08 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -297,7 +298,7 @@ CREATE TABLE [dbo].[Salas](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Tecnicos]    Script Date: 28/10/2023 17:26:23 ******/
+/****** Object:  Table [dbo].[Tecnicos]    Script Date: 28/10/2023 18:06:08 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -321,7 +322,7 @@ CREATE TABLE [dbo].[Tecnicos](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[TiposDenunciasConsumidores]    Script Date: 28/10/2023 17:26:23 ******/
+/****** Object:  Table [dbo].[TiposDenunciasConsumidores]    Script Date: 28/10/2023 18:06:08 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -335,7 +336,7 @@ CREATE TABLE [dbo].[TiposDenunciasConsumidores](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[TiposDenunciasTecnicos]    Script Date: 28/10/2023 17:26:23 ******/
+/****** Object:  Table [dbo].[TiposDenunciasTecnicos]    Script Date: 28/10/2023 18:06:08 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -349,7 +350,7 @@ CREATE TABLE [dbo].[TiposDenunciasTecnicos](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[TiposMonedas]    Script Date: 28/10/2023 17:26:23 ******/
+/****** Object:  Table [dbo].[TiposMonedas]    Script Date: 28/10/2023 18:06:08 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -362,6 +363,17 @@ CREATE TABLE [dbo].[TiposMonedas](
 	[Id_TipoMoneda] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
+GO
+INSERT [dbo].[Administradores] ([Id_Administrador], [Codigo_Administrador]) VALUES (70458211, N'6OphZj3V1EfYqvxfDYUDnQ==S9V0D7/5caIiIH6CWs/X+w==')
+INSERT [dbo].[Administradores] ([Id_Administrador], [Codigo_Administrador]) VALUES (71148992, N'VCXbFBpwN9kP2BOKWkgR8Q==4h3CDUqxidcLFb7X31/jJg==')
+INSERT [dbo].[Administradores] ([Id_Administrador], [Codigo_Administrador]) VALUES (73694200, N'yRc3CbIYv41RsNMCLA0C7g==NtIXNRSAQXCQbpFGEjPXnA==')
+INSERT [dbo].[Administradores] ([Id_Administrador], [Codigo_Administrador]) VALUES (74415256, N'lraKSZ2uWq8/Kpt2p1OTpQ==pa4TJW235IUOZ8UDe1hZLw==')
+INSERT [dbo].[Administradores] ([Id_Administrador], [Codigo_Administrador]) VALUES (74489267, N'+mQY3vYBAlOOMRPWAymwrw==uAymFsPzZnaUMgilNzFW1g==')
+INSERT [dbo].[Administradores] ([Id_Administrador], [Codigo_Administrador]) VALUES (74891021, N'vBp8KMq453IP+ep8Lxagzg==VCktnGxky/rVBGq0u3MScg==')
+INSERT [dbo].[Administradores] ([Id_Administrador], [Codigo_Administrador]) VALUES (76666318, N'h77piN+MvHSos1miDjmXkA==ABEdhdgZzauEm9GUELV5Cg==')
+INSERT [dbo].[Administradores] ([Id_Administrador], [Codigo_Administrador]) VALUES (76978121, N'GSKB71AhdUY2EjYS5UcDug==dQfK8ewgKvCyukcqOsj0sA==')
+INSERT [dbo].[Administradores] ([Id_Administrador], [Codigo_Administrador]) VALUES (76984210, N'YrEipqBdM5bUz4EpFX+d1A==7MluEl/nW2pqBGDvSrJC5Q==')
+INSERT [dbo].[Administradores] ([Id_Administrador], [Codigo_Administrador]) VALUES (77910300, N'6mq6+sME6qCQPqHDybFOvg==j4GdB27GtPHOTeQDYbp4Kw==')
 GO
 SET IDENTITY_INSERT [dbo].[AntecedentesTecnicos] ON 
 
@@ -765,7 +777,7 @@ REFERENCES [dbo].[Especialidades] ([Id_Especialidad])
 GO
 ALTER TABLE [dbo].[Tecnicos] CHECK CONSTRAINT [FK_Id_Especialidad_Tecnico]
 GO
-/****** Object:  StoredProcedure [dbo].[SP_IniciarSesion]    Script Date: 28/10/2023 17:26:23 ******/
+/****** Object:  StoredProcedure [dbo].[SP_IniciarSesion]    Script Date: 28/10/2023 18:06:09 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -808,7 +820,7 @@ else
 	end
 end
 GO
-/****** Object:  StoredProcedure [dbo].[SP_InsertarDatos_Consumidores]    Script Date: 28/10/2023 17:26:23 ******/
+/****** Object:  StoredProcedure [dbo].[SP_InsertarDatos_Consumidores]    Script Date: 28/10/2023 18:06:09 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -839,7 +851,7 @@ INSERT INTO CodigosConsumidores values (@Id_Consumidor, @CodigoConsumidor)
 
 END
 GO
-/****** Object:  StoredProcedure [dbo].[SP_InsertarDatos_Denuncias]    Script Date: 28/10/2023 17:26:23 ******/
+/****** Object:  StoredProcedure [dbo].[SP_InsertarDatos_Denuncias]    Script Date: 28/10/2023 18:06:09 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -868,7 +880,7 @@ BEGIN
 	END
 END
 GO
-/****** Object:  StoredProcedure [dbo].[SP_InsertarDatos_DetallesAgendas]    Script Date: 28/10/2023 17:26:23 ******/
+/****** Object:  StoredProcedure [dbo].[SP_InsertarDatos_DetallesAgendas]    Script Date: 28/10/2023 18:06:09 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -930,7 +942,7 @@ else if (@Roll = 'TECNICO')
     END
 END
 GO
-/****** Object:  StoredProcedure [dbo].[SP_InsertarDatos_Mensajes]    Script Date: 28/10/2023 17:26:23 ******/
+/****** Object:  StoredProcedure [dbo].[SP_InsertarDatos_Mensajes]    Script Date: 28/10/2023 18:06:09 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -964,7 +976,7 @@ else if (@Roll = 'CONSUMIDOR')
 	END
 END
 GO
-/****** Object:  StoredProcedure [dbo].[SP_InsertarDatos_ReseniasTecnicos]    Script Date: 28/10/2023 17:26:23 ******/
+/****** Object:  StoredProcedure [dbo].[SP_InsertarDatos_ReseniasTecnicos]    Script Date: 28/10/2023 18:06:09 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -983,7 +995,7 @@ BEGIN
 
 END
 GO
-/****** Object:  StoredProcedure [dbo].[SP_InsertarDatos_Salas]    Script Date: 28/10/2023 17:26:23 ******/
+/****** Object:  StoredProcedure [dbo].[SP_InsertarDatos_Salas]    Script Date: 28/10/2023 18:06:09 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1002,7 +1014,7 @@ INSERT INTO MiembrosSalas values ((SELECT MAX(Id_Sala) FROM Salas), @Id_Tecnico_
 
 END
 GO
-/****** Object:  StoredProcedure [dbo].[SP_InsertarDatos_Tecnicos]    Script Date: 28/10/2023 17:26:23 ******/
+/****** Object:  StoredProcedure [dbo].[SP_InsertarDatos_Tecnicos]    Script Date: 28/10/2023 18:06:09 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1050,7 +1062,7 @@ if (((SELECT COUNT(*) FROM Distritos WHERE Distrito LIKE @Distrito + '%'
 	END
 END
 GO
-/****** Object:  StoredProcedure [dbo].[SP_MostrarCitasPendientes_DetallesAgendas]    Script Date: 28/10/2023 17:26:23 ******/
+/****** Object:  StoredProcedure [dbo].[SP_MostrarCitasPendientes_DetallesAgendas]    Script Date: 28/10/2023 18:06:09 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1073,7 +1085,7 @@ AND Estado_DetalleAgenda = 'PENDIENTE'
 
 END
 GO
-/****** Object:  StoredProcedure [dbo].[SP_MostrarCitasPendientesEnProceso_DetallesAgendas]    Script Date: 28/10/2023 17:26:23 ******/
+/****** Object:  StoredProcedure [dbo].[SP_MostrarCitasPendientesEnProceso_DetallesAgendas]    Script Date: 28/10/2023 18:06:09 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1114,7 +1126,7 @@ else if (@Estado_DetalleAgenda = 'EN PROCESO')
 	END
 END
 GO
-/****** Object:  StoredProcedure [dbo].[SP_MostrarDatos_Especialidades]    Script Date: 28/10/2023 17:26:23 ******/
+/****** Object:  StoredProcedure [dbo].[SP_MostrarDatos_Especialidades]    Script Date: 28/10/2023 18:06:09 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1127,7 +1139,7 @@ SELECT Especialidad FROM Especialidades
 
 END
 GO
-/****** Object:  StoredProcedure [dbo].[SP_MostrarDatos_Mensajes]    Script Date: 28/10/2023 17:26:23 ******/
+/****** Object:  StoredProcedure [dbo].[SP_MostrarDatos_Mensajes]    Script Date: 28/10/2023 18:06:09 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1147,7 +1159,7 @@ WHERE Id_Sala_Mensaje = (SELECT Id_Sala_MiembroSala FROM MiembrosSalas
 
 END
 GO
-/****** Object:  StoredProcedure [dbo].[SP_MostrarDatos_MiembrosSalas]    Script Date: 28/10/2023 17:26:23 ******/
+/****** Object:  StoredProcedure [dbo].[SP_MostrarDatos_MiembrosSalas]    Script Date: 28/10/2023 18:06:09 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1185,7 +1197,7 @@ else if (@Roll = 'CONSUMIDOR')
     END
 END
 GO
-/****** Object:  StoredProcedure [dbo].[SP_MostrarInformacionGeneral_Tecnicos]    Script Date: 28/10/2023 17:26:23 ******/
+/****** Object:  StoredProcedure [dbo].[SP_MostrarInformacionGeneral_Tecnicos]    Script Date: 28/10/2023 18:06:09 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1215,7 +1227,7 @@ HAVING Id_DatoAgenda_DetalleAgenda = (SELECT Id_DatoAgenda FROM DatosAgendas
 
 END
 GO
-/****** Object:  StoredProcedure [dbo].[SP_MostrarReporteDetallado_Tecnicos]    Script Date: 28/10/2023 17:26:23 ******/
+/****** Object:  StoredProcedure [dbo].[SP_MostrarReporteDetallado_Tecnicos]    Script Date: 28/10/2023 18:06:09 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1228,74 +1240,74 @@ CREATE PROCEDURE [dbo].[SP_MostrarReporteDetallado_Tecnicos]
 AS
 BEGIN
 
-DECLARE @TrabajosPendientes_DetalleAgenda int
-DECLARE @PromedioReseñas_ReseñaTecnico int
-DECLARE @CantidadReseñas_ReseñaTecnico int
-
-if (@TipoReporte = 'MENSUAL')
+	DECLARE @TrabajosPendientes_DetalleAgenda int
+	DECLARE @PromedioReseñas_ReseñaTecnico int
+	DECLARE @CantidadReseñas_ReseñaTecnico int
+	
+	IF (@TipoReporte = 'MENSUAL')
 	BEGIN
-
-	SET @TrabajosPendientes_DetalleAgenda = (SELECT COUNT(Estado_DetalleAgenda) FROM DetallesAgendas
-	                                                 WHERE Id_DatoAgenda_DetalleAgenda = (SELECT Id_DatoAgenda FROM DatosAgendas
-													                                      WHERE Id_Tecnico_DatoAgenda = @Id_Tecnico_DatoAgenda)
-													 AND Estado_DetalleAgenda = 'PENDIENTE')
 	
-	SET @PromedioReseñas_ReseñaTecnico = (SELECT AVG(Puntaje_ReseñaTecnico) FROM ReseñasTecnicos
-	                                              WHERE Id_Tecnico_ReseñaTecnico = @Id_Tecnico_DatoAgenda
-												  AND FORMAT(Fecha_ReseñaTecnico, 'MM') = FORMAT(GETDATE(), 'MM'))
+		SET @TrabajosPendientes_DetalleAgenda = (SELECT COUNT(Estado_DetalleAgenda) FROM DetallesAgendas
+		                                                 WHERE Id_DatoAgenda_DetalleAgenda = (SELECT Id_DatoAgenda FROM DatosAgendas
+														                                      WHERE Id_Tecnico_DatoAgenda = @Id_Tecnico_DatoAgenda)
+														 AND Estado_DetalleAgenda = 'PENDIENTE')
+		
+		SET @PromedioReseñas_ReseñaTecnico = (SELECT AVG(Puntaje_ReseniaTecnico) FROM ReseniasTecnicos
+		                                              WHERE Id_Tecnico_ReseniaTecnico = @Id_Tecnico_DatoAgenda
+													  AND FORMAT(Fecha_ReseniaTecnico, 'MM') = FORMAT(GETDATE(), 'MM'))
+		
+		SET @CantidadReseñas_ReseñaTecnico = (SELECT COUNT(ReseniaTecnico) FROM ReseniasTecnicos
+		                                              WHERE Id_Tecnico_ReseniaTecnico = @Id_Tecnico_DatoAgenda
+													  AND FORMAT(Fecha_ReseniaTecnico, 'MM') = FORMAT(GETDATE(), 'MM'))
+		
+		SELECT Id_DatoAgenda_DetalleAgenda,
+		AVG(MontoFinal_DetalleAgenda) AS PromedioMontoFinal_DetalleAgenda,
+		SUM(MontoFinal_DetalleAgenda) AS MontoFinal_DetalleAgenda,
+		COUNT(Id_Consumidor_DetalleAgenda) AS ConsumidoresAtendidos_DetalleAgenda,
+		SUM(TiempoTrabajo_DetalleAgenda) AS TiempoTrabajo_DetalleAgenda,
+		@TrabajosPendientes_DetalleAgenda AS TrabajosPendientes_DetalleAgenda,
+		@PromedioReseñas_ReseñaTecnico AS PromedioReseñas_ReseñaTecnico,
+		@CantidadReseñas_ReseñaTecnico AS CantidadReseñas_ReseñaTecnico
+		FROM DetallesAgendas GROUP BY Id_DatoAgenda_DetalleAgenda
+		HAVING Id_DatoAgenda_DetalleAgenda = (SELECT Id_DatoAgenda FROM DatosAgendas
+		                                      WHERE Id_Tecnico_DatoAgenda = @Id_Tecnico_DatoAgenda
+											  AND Id_DatoAgenda = (SELECT Id_DatoAgenda_DetalleAgenda FROM DetallesAgendas
+		                                                           WHERE FORMAT(FechaTrabajo_DetalleAgenda, 'MM') = FORMAT(GETDATE(), 'MM')
+										                           AND Estado_DetalleAgenda = 'COMPLETADO'))
 	
-	SET @CantidadReseñas_ReseñaTecnico = (SELECT COUNT(ReseñaTecnico) FROM ReseñasTecnicos
-	                                              WHERE Id_Tecnico_ReseñaTecnico = @Id_Tecnico_DatoAgenda
-												  AND FORMAT(Fecha_ReseñaTecnico, 'MM') = FORMAT(GETDATE(), 'MM'))
-	
-	SELECT Id_DatoAgenda_DetalleAgenda,
-	AVG(MontoFinal_DetalleAgenda) AS PromedioMontoFinal_DetalleAgenda,
-	SUM(MontoFinal_DetalleAgenda) AS MontoFinal_DetalleAgenda,
-	COUNT(Id_Consumidor_DetalleAgenda) AS ConsumidoresAtendidos_DetalleAgenda,
-	SUM(TiempoTrabajo_DetalleAgenda) AS TiempoTrabajo_DetalleAgenda,
-	@TrabajosPendientes_DetalleAgenda AS TrabajosPendientes_DetalleAgenda,
-	@PromedioReseñas_ReseñaTecnico AS PromedioReseñas_ReseñaTecnico,
-	@CantidadReseñas_ReseñaTecnico AS CantidadReseñas_ReseñaTecnico
-	FROM DetallesAgendas GROUP BY Id_DatoAgenda_DetalleAgenda
-	HAVING Id_DatoAgenda_DetalleAgenda = (SELECT Id_DatoAgenda FROM DatosAgendas
-	                                      WHERE Id_Tecnico_DatoAgenda = @Id_Tecnico_DatoAgenda
-										  AND Id_DatoAgenda = (SELECT Id_DatoAgenda_DetalleAgenda FROM DetallesAgendas
-	                                                           WHERE FORMAT(FechaTrabajo_DetalleAgenda, 'MM') = FORMAT(GETDATE(), 'MM')
-									                           AND Estado_DetalleAgenda = 'COMPLETADO'))
-
 	END
-else if (@TipoReporte = 'TOTAL')
+	ELSE IF (@TipoReporte = 'TOTAL')
 	BEGIN
-
-	SET @TrabajosPendientes_DetalleAgenda = (SELECT COUNT(Estado_DetalleAgenda) FROM DetallesAgendas
-	                                         WHERE Id_DatoAgenda_DetalleAgenda = (SELECT Id_DatoAgenda FROM DatosAgendas
-													                              WHERE Id_Tecnico_DatoAgenda = @Id_Tecnico_DatoAgenda)
-									         AND Estado_DetalleAgenda = 'PENDIENTE')
 	
-	SET @PromedioReseñas_ReseñaTecnico = (SELECT AVG(Puntaje_ReseñaTecnico) FROM ReseñasTecnicos
-	                                      WHERE Id_Tecnico_ReseñaTecnico = @Id_Tecnico_DatoAgenda)
+		SET @TrabajosPendientes_DetalleAgenda = (SELECT COUNT(Estado_DetalleAgenda) FROM DetallesAgendas
+		                                         WHERE Id_DatoAgenda_DetalleAgenda = (SELECT Id_DatoAgenda FROM DatosAgendas
+														                              WHERE Id_Tecnico_DatoAgenda = @Id_Tecnico_DatoAgenda)
+										         AND Estado_DetalleAgenda = 'PENDIENTE')
+		
+		SET @PromedioReseñas_ReseñaTecnico = (SELECT AVG(Puntaje_ReseniaTecnico) FROM ReseniasTecnicos
+		                                      WHERE Id_Tecnico_ReseniaTecnico = @Id_Tecnico_DatoAgenda)
+		
+		SET @CantidadReseñas_ReseñaTecnico = (SELECT COUNT(ReseniaTecnico) FROM ReseniasTecnicos
+		                                      WHERE Id_Tecnico_ReseniaTecnico = @Id_Tecnico_DatoAgenda)
+		
+		SELECT Id_DatoAgenda_DetalleAgenda,
+		AVG(MontoFinal_DetalleAgenda) AS PromedioMontoFinal_DetalleAgenda,
+		SUM(MontoFinal_DetalleAgenda) AS MontoFinal_DetalleAgenda,
+		COUNT(Id_Consumidor_DetalleAgenda) AS ConsumidoresAtendidos_DetalleAgenda,
+		SUM(TiempoTrabajo_DetalleAgenda) AS TiempoTrabajo_DetalleAgenda,
+		@TrabajosPendientes_DetalleAgenda AS TrabajosPendientes_DetalleAgenda,
+		@PromedioReseñas_ReseñaTecnico AS PromedioReseñas_ReseñaTecnico,
+		@CantidadReseñas_ReseñaTecnico AS CantidadReseñas_ReseñaTecnico
+		FROM DetallesAgendas GROUP BY Id_DatoAgenda_DetalleAgenda
+		HAVING Id_DatoAgenda_DetalleAgenda = (SELECT Id_DatoAgenda FROM DatosAgendas
+		                                      WHERE Id_Tecnico_DatoAgenda = @Id_Tecnico_DatoAgenda
+											  AND Id_DatoAgenda = (SELECT Id_DatoAgenda_DetalleAgenda FROM DetallesAgendas
+		                                                           WHERE Estado_DetalleAgenda = 'COMPLETADO'))
 	
-	SET @CantidadReseñas_ReseñaTecnico = (SELECT COUNT(ReseñaTecnico) FROM ReseñasTecnicos
-	                                      WHERE Id_Tecnico_ReseñaTecnico = @Id_Tecnico_DatoAgenda)
-	
-	SELECT Id_DatoAgenda_DetalleAgenda,
-	AVG(MontoFinal_DetalleAgenda) AS PromedioMontoFinal_DetalleAgenda,
-	SUM(MontoFinal_DetalleAgenda) AS MontoFinal_DetalleAgenda,
-	COUNT(Id_Consumidor_DetalleAgenda) AS ConsumidoresAtendidos_DetalleAgenda,
-	SUM(TiempoTrabajo_DetalleAgenda) AS TiempoTrabajo_DetalleAgenda,
-	@TrabajosPendientes_DetalleAgenda AS TrabajosPendientes_DetalleAgenda,
-	@PromedioReseñas_ReseñaTecnico AS PromedioReseñas_ReseñaTecnico,
-	@CantidadReseñas_ReseñaTecnico AS CantidadReseñas_ReseñaTecnico
-	FROM DetallesAgendas GROUP BY Id_DatoAgenda_DetalleAgenda
-	HAVING Id_DatoAgenda_DetalleAgenda = (SELECT Id_DatoAgenda FROM DatosAgendas
-	                                      WHERE Id_Tecnico_DatoAgenda = @Id_Tecnico_DatoAgenda
-										  AND Id_DatoAgenda = (SELECT Id_DatoAgenda_DetalleAgenda FROM DetallesAgendas
-	                                                           WHERE Estado_DetalleAgenda = 'COMPLETADO'))
-
 	END
 END
 GO
-/****** Object:  Trigger [dbo].[TG_InsertarDatos_Tecnicos]    Script Date: 28/10/2023 17:26:23 ******/
+/****** Object:  Trigger [dbo].[TG_InsertarDatos_Tecnicos]    Script Date: 28/10/2023 18:06:09 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
